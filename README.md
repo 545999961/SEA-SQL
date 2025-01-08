@@ -26,6 +26,7 @@ export OPENAI_API_KEY="..."
 You can get data from [BIRD](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/bird) and [Spider](https://github.com/taoyds/spider).
 
 The data should include the following files:
+```
 ├─data # store datasets and databases
 |  ├─dev
 |    ├─dev_databases
@@ -37,9 +38,10 @@ The data should include the following files:
 |    ├─train.json
 |    ├─train_tables.json
 |    ├─train_gold.sql
+```
 
 ## 🚀 Finetune
-1. modify the data path in **generate_train_data.sh**
+1. modify the data path in **script/generate_train_data.sh**
 
 ```shell
 tables=".../data/train/train_tables.json"
@@ -52,7 +54,7 @@ short_model_name='gpt-3.5-turbo-0613'
 long_model_name='gpt-3.5-turbo-16k-0613'
 ```
 
-2. execute **generate_train_data.sh** to generate train data
+2. execute **script/generate_train_data.sh** to generate train data
 
 ```shell
 bash script/generate_train_data.sh
