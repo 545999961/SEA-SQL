@@ -86,7 +86,7 @@ short_model_name='gpt-3.5-turbo-0613'
 long_model_name='gpt-3.5-turbo-16k-0613'
 ```
 
-2. execute **run.sh**
+2. execute **script/run.sh**
 
 ```shell
 bash script/run.sh
@@ -102,7 +102,7 @@ diff_json_path='.../dev/dev.json' # the path of dev.json
 ground_truth_path='.../dev/' # the gold SQL dir path
 ```
 
-2. execute **evaluate.sh**
+2. execute **script/evaluate.sh**
 
 ```shell
 bash script/evaluate.sh
