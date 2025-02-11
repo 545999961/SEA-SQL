@@ -113,10 +113,10 @@ bash script/evaluate.sh
 If you find our work is helpful, please cite as:
 
 ```text
-@misc{li2024seasqlsemanticenhancedtexttosqladaptive,
+@misc{li2025seasqlsemanticenhancedtexttosqladaptive,
       title={SEA-SQL: Semantic-Enhanced Text-to-SQL with Adaptive Refinement}, 
-      author={Chaofan Li and Yingxia Shao and Zheng Liu},
-      year={2024},
+      author={Chaofan Li and Yingxia Shao and Yawen Li and Zheng Liu},
+      year={2025},
       eprint={2408.04919},
       archivePrefix={arXiv},
       primaryClass={cs.DB},
